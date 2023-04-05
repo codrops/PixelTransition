@@ -4,7 +4,7 @@ Ideas for pixel page transitions based on an [animation](https://twitter.com/nic
 
 ![Pixel Transition](https://tympanus.net/codrops/wp-content/uploads/2023/04/pixeltransition.jpg)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=71400)
+[Article on Codrops](https://tympanus.net/codrops/?p=71437)
 
 [Demo](http://tympanus.net/Development/PixelTransition/)
 
