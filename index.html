@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Pixel Transition | Demo 1 | Codrops</title>
+		<meta name="description" content="Inspiration for pixel page transitions based on Niccolò Miranda's animation." />
+		<meta name="keywords" content="page transition, animation, pixel, gsap" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://use.typekit.net/ctp6pec.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+	</head>
+	<body class="demo-1 loading">
+		<svg class="hidden" xmlns="http://www.w3.org/2000/svg">
+			<symbol id="icon-arrow" viewBox="0 0 562 980">
+				<g><path d="M561.4 0H421.2v138.7h140.2zM421.2 138.7H281v140.2h140.2zM281 278.9H140.8v140.2H281zM281 559.4H140.8v140.2H281zM421.2 699.6H281v140.2h140.2zM561.4 839.8H421.2V980h140.2zM140.8 419.1H.6v140.2h140.2z"/></g>
+			</symbol>
+		</svg>
+		<main>
+			<div class="frame">
+				<h1 class="frame__title">Pixel Transition</h1>
+				<nav class="frame__links">
+					<a class="hover-line" href="https://tympanus.net/codrops/?p=71400">Article</a>
+					<a class="hover-line" href="http://tympanus.net/Tutorials/Voxelizer/">Previous demo</a>
+				</nav>
+				<nav class="frame__demos">
+					<span>More demos:</span>
+					<span class="frame__demo">1</span>
+					<a href="index2.html" class="frame__demo">2</a>
+					<a href="index3.html" class="frame__demo">3</a>
+					<a href="index4.html" class="frame__demo">4</a>
+					<a href="index5.html" class="frame__demo">5</a>
+					<a href="index6.html" class="frame__demo">6</a>
+				</nav>
+			</div>
+			<div class="intro">
+				<div class="intro__text font-3">Rather</div>
+				<div class="intro__image" style="background-image:url(img/1.jpg)"></div>
+				<div class="intro__text">than</div>
+				<div class="intro__image" style="background-image:url(img/2.jpg)"></div>
+				<div class="intro__text font-2">love</div>
+				<div class="intro__image" style="background-image:url(img/3.jpg)"></div>
+				<div class="intro__text font-1">than</div>
+				<div class="intro__image" style="background-image:url(img/4.jpg)"></div>
+				<div class="intro__text font-2">money</div>
+				<div class="intro__image" style="background-image:url(img/5.jpg)"></div>
+				<div class="intro__text">than</div>
+				<div class="intro__image" style="background-image:url(img/6.jpg)"></div>
+				<div class="intro__text font-2">fame</div>
+				<div class="intro__image" style="background-image:url(img/7.jpg)"></div>
+				<div class="intro__text">give</div>
+				<div class="intro__text">me</div>
+				<div class="intro__image" style="background-image:url(img/8.jpg)"></div>
+				<div class="intro__text font-2">truth</div>
+				<div class="intro__image" style="background-image:url(img/9.jpg)"></div>
+			</div>
+			<section class="content-wrap">
+				<div class="content">
+					<div class="content__img">
+						<div class="content__img-inner" style="background-image:url(img/1.jpg)"></div>
+					</div>
+					<div class="content__text">
+						<h2 class="content__title">Guard your time and attention.</h2>
+						<span class="content__number">M36</span>
+						<button class="content__back unbutton">
+							<svg aria-hidden="true" focusable="false">
+								<use href="#icon-arrow"></use>
+							</svg>
+						</button>
+						<div class="content__meta">
+							<span class="content__meta-text">Frank Luck</span>
+							<span class="content__meta-text">1982</span>
+							<span class="content__meta-text">Ground Day</span>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="content__img">
+						<div class="content__img-inner" style="background-image:url(img/2.jpg)"></div>
+					</div>
+					<div class="content__text">
+						<h2 class="content__title">Seek simplicity and nature.</h2>
+						<span class="content__number">B13</span>
+						<button class="content__back unbutton">
+							<svg aria-hidden="true" focusable="false">
+								<use href="#icon-arrow"></use>
+							</svg>
+						</button>
+						<div class="content__meta">
+							<span class="content__meta-text">Lora Black</span>
+							<span class="content__meta-text">1985</span>
+							<span class="content__meta-text">Lost in Love</span>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="content__img">
+						<div class="content__img-inner" style="background-image:url(img/3.jpg)"></div>
+					</div>
+					<div class="content__text">
+						<h2 class="content__title">Avoid accumulating needless things.</h2>
+						<span class="content__number">G98</span>
+						<button class="content__back unbutton">
+							<svg aria-hidden="true" focusable="false">
+								<use href="#icon-arrow"></use>
+							</svg>
+						</button>
+						<div class="content__meta">
+							<span class="content__meta-text">Lady B.</span>
+							<span class="content__meta-text">1989</span>
+							<span class="content__meta-text">Club Byna</span>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="content__img">
+						<div class="content__img-inner" style="background-image:url(img/4.jpg)"></div>
+					</div>
+					<div class="content__text">
+						<h2 class="content__title">Be conscious of the stories you tell.</h2>
+						<span class="content__number">K06</span>
+						<button class="content__back unbutton">
+							<svg aria-hidden="true" focusable="false">
+								<use href="#icon-arrow"></use>
+							</svg>
+						</button>
+						<div class="content__meta">
+							<span class="content__meta-text">Harry D. Walters</span>
+							<span class="content__meta-text">2023</span>
+							<span class="content__meta-text">Mad Wanderer</span>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="content__img">
+						<div class="content__img-inner" style="background-image:url(img/5.jpg)"></div>
+					</div>
+					<div class="content__text">
+						<h2 class="content__title">Rest, reflect, and play.</h2>
+						<span class="content__number">W02</span>
+						<button class="content__back unbutton">
+							<svg aria-hidden="true" focusable="false">
+								<use href="#icon-arrow"></use>
+							</svg>
+						</button>
+						<div class="content__meta">
+							<span class="content__meta-text">Cathy Brown</span>
+							<span class="content__meta-text">1992</span>
+							<span class="content__meta-text">Free Ride</span>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="content__img">
+						<div class="content__img-inner" style="background-image:url(img/6.jpg)"></div>
+					</div>
+					<div class="content__text">
+						<h2 class="content__title">Your actions have consequences.</h2>
+						<span class="content__number">T67</span>
+						<button class="content__back unbutton">
+							<svg aria-hidden="true" focusable="false">
+								<use href="#icon-arrow"></use>
+							</svg>
+						</button>
+						<div class="content__meta">
+							<span class="content__meta-text">Sarah Zola</span>
+							<span class="content__meta-text">1996</span>
+							<span class="content__meta-text">Roundhouse</span>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="content__img">
+						<div class="content__img-inner" style="background-image:url(img/7.jpg)"></div>
+					</div>
+					<div class="content__text">
+						<h2 class="content__title">Don't compromise your integrity.</h2>
+						<span class="content__number">X49</span>
+						<button class="content__back unbutton">
+							<svg aria-hidden="true" focusable="false">
+								<use href="#icon-arrow"></use>
+							</svg>
+						</button>
+						<div class="content__meta">
+							<span class="content__meta-text">Dana Belucci</span>
+							<span class="content__meta-text">2000</span>
+							<span class="content__meta-text">Rising Star</span>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="content__img">
+						<div class="content__img-inner" style="background-image:url(img/8.jpg)"></div>
+					</div>
+					<div class="content__text">
+						<h2 class="content__title">Seek greater wisdom and compassion.</h2>
+						<span class="content__number">G05</span>
+						<button class="content__back unbutton">
+							<svg aria-hidden="true" focusable="false">
+								<use href="#icon-arrow"></use>
+							</svg>
+						</button>
+						<div class="content__meta">
+							<span class="content__meta-text">Gerry Ronald</span>
+							<span class="content__meta-text">2001</span>
+							<span class="content__meta-text">Messy Luck</span>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="content__img">
+						<div class="content__img-inner" style="background-image:url(img/9.jpg)"></div>
+					</div>
+					<div class="content__text">
+						<h2 class="content__title">Value experiences over material possessions.</h2>
+						<span class="content__number">K16</span>
+						<button class="content__back unbutton">
+							<svg aria-hidden="true" focusable="false">
+								<use href="#icon-arrow"></use>
+							</svg>
+						</button>
+						<div class="content__meta">
+							<span class="content__meta-text">Diana Cohen</span>
+							<span class="content__meta-text">2002</span>
+							<span class="content__meta-text">Simple Thing</span>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="content__img">
+						<div class="content__img-inner" style="background-image:url(img/10.jpg)"></div>
+					</div>
+					<div class="content__text">
+						<h2 class="content__title">Live a life of purpose.</h2>
+						<span class="content__number">Z09</span>
+						<button class="content__back unbutton">
+							<svg aria-hidden="true" focusable="false">
+								<use href="#icon-arrow"></use>
+							</svg>
+						</button>
+						<div class="content__meta">
+							<span class="content__meta-text">Mario T. Foy</span>
+							<span class="content__meta-text">2006</span>
+							<span class="content__meta-text">The End of all</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="overlay"></div>
+		</main>
+		<script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+		<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+		<script type="module" src="js/demo1/index.js"></script>
+	</body>
+</html>
